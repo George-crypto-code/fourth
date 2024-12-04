@@ -1,14 +1,15 @@
 import sqlite3
 import sys
-from PyQt6 import uic
 from PyQt6.QtWidgets import QApplication
 from PyQt6.QtWidgets import QMainWindow, QTableWidgetItem
+from UI.main_window import Ui_MainWindow
+from UI.addForm import Ui_MainWindow as Ui_Win
 
 
-class AddForm(QMainWindow):
+class AddForm(QMainWindow, Ui_Win):
     def __init__(self, parent):
         super().__init__(parent)
-        uic.loadUi("addEditCoffeeForm.ui", self)
+        self.setupUi(self)
         self.setFixedSize(340, 270)
         self.addBtn.clicked.connect(self.add_coffee)
 
@@ -24,12 +25,12 @@ class AddForm(QMainWindow):
         self.close()
 
 
-class MyWidget(QMainWindow):
+class MyWidget(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi("main.ui", self)
+        self.setupUi(self)
         self.setFixedSize(760, 385)
-        self.cur = sqlite3.connect("coffee.db")
+        self.cur = sqlite3.connect("../data/coffee.db")
         self.title = ["ID", "sort", "roasting", "ground_or_beans", "taste", "price", "size"]
         self.updateBtn.clicked.connect(self.update_table)
         self.addBtn.clicked.connect(self.add_window)
