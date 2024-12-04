@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>340</width>
+                <height>272</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QLineEdit" name="IDEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>10</y>
+                        <width>181</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="sortEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>40</y>
+                        <width>181</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="tasteEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>130</y>
+                        <width>181</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="sizeEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>190</y>
+                        <width>181</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="priceEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>160</y>
+                        <width>181</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>10</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>ID</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>40</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>sort</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>70</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>roasting</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>100</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>ground/beans</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_5">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>130</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>taste</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_6">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>160</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>price</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_7">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>190</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>size</string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>100</y>
+                        <width>181</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>ground</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>beans</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QComboBox" name="comboBox_2">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>70</y>
+                        <width>181</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>bright</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>medium</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>dark</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QPushButton" name="pushButton">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>230</y>
+                        <width>311</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Добавить</string>
+                </property>
+            </widget>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
