@@ -7,23 +7,13 @@
                 <x>0</x>
                 <y>0</y>
                 <width>340</width>
-                <height>272</height>
+                <height>275</height>
             </rect>
         </property>
         <property name="windowTitle">
             <string>MainWindow</string>
         </property>
         <widget class="QWidget" name="centralwidget">
-            <widget class="QLineEdit" name="IDEdit">
-                <property name="geometry">
-                    <rect>
-                        <x>150</x>
-                        <y>10</y>
-                        <width>181</width>
-                        <height>20</height>
-                    </rect>
-                </property>
-            </widget>
             <widget class="QLineEdit" name="sortEdit">
                 <property name="geometry">
                     <rect>
@@ -62,19 +52,6 @@
                         <width>181</width>
                         <height>20</height>
                     </rect>
-                </property>
-            </widget>
-            <widget class="QLabel" name="label">
-                <property name="geometry">
-                    <rect>
-                        <x>20</x>
-                        <y>10</y>
-                        <width>131</width>
-                        <height>20</height>
-                    </rect>
-                </property>
-                <property name="text">
-                    <string>ID</string>
                 </property>
             </widget>
             <widget class="QLabel" name="label_2">
@@ -155,7 +132,7 @@
                     <string>size</string>
                 </property>
             </widget>
-            <widget class="QComboBox" name="comboBox">
+            <widget class="QComboBox" name="beansBox">
                 <property name="geometry">
                     <rect>
                         <x>150</x>
@@ -175,7 +152,7 @@
                     </property>
                 </item>
             </widget>
-            <widget class="QComboBox" name="comboBox_2">
+            <widget class="QComboBox" name="roastingBox">
                 <property name="geometry">
                     <rect>
                         <x>150</x>
@@ -200,7 +177,7 @@
                     </property>
                 </item>
             </widget>
-            <widget class="QPushButton" name="pushButton">
+            <widget class="QPushButton" name="addBtn">
                 <property name="geometry">
                     <rect>
                         <x>20</x>
